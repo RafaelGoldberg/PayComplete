@@ -1,0 +1,14 @@
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.deps.json
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csprojAssemblyReference.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfoInputs.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfo.cs
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CoreCompileInputs.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb

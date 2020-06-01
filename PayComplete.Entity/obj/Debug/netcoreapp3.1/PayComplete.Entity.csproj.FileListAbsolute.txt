@@ -1,0 +1,9 @@
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.deps.json
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.csprojAssemblyReference.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.AssemblyInfoInputs.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.AssemblyInfo.cs
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.csproj.CoreCompileInputs.cache
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.pdb
