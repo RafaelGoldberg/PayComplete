@@ -23,6 +23,9 @@ namespace PayComplete.Entity
         public DateTime DateJoined { get; set; }
         public string Designation { get; set; }
         public string Email { get; set; }
+
+        public string PhoneNumber { get; set; }
+
         [Required, MaxLength(25)]
         public string SocialSecurityNumber { get; set; }
         public PaymentMethod PaymentMethod { get; set; }

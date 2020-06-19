@@ -5470,11 +5470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete\\PayComplete.csproj",
+      "projectUniqueName": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete\\PayComplete.csproj",
       "projectName": "PayComplete",
-      "projectPath": "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete\\PayComplete.csproj",
+      "projectPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete\\PayComplete.csproj",
       "packagesPath": "C:\\Users\\Rafi Goldberg\\.nuget\\packages\\",
-      "outputPath": "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete\\obj\\",
+      "outputPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5494,11 +5494,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {
-              "projectPath": "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj"
+            "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {
+              "projectPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj"
             },
-            "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete.Services\\PayComplete.Services.csproj": {
-              "projectPath": "C:\\Asp.Net Core Projects\\PayComplete\\PayComplete.Services\\PayComplete.Services.csproj"
+            "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Services\\PayComplete.Services.csproj": {
+              "projectPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Services\\PayComplete.Services.csproj"
             }
           }
         }

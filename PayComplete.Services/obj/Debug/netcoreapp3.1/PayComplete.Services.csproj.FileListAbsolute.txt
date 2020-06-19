@@ -12,3 +12,17 @@ C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.deps.json
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csprojAssemblyReference.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfoInputs.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfo.cs
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CoreCompileInputs.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb

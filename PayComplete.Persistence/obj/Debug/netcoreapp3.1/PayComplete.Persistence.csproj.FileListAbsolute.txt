@@ -13,3 +13,18 @@ C:\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreap
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.dll
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
 C:\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.genruntimeconfig.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Persistence.deps.json
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Persistence.runtimeconfig.json
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Persistence.runtimeconfig.dev.json
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Persistence.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.csprojAssemblyReference.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.AssemblyInfoInputs.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.AssemblyInfo.cs
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.csproj.CopyComplete
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.dll
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Persistence\obj\Debug\netcoreapp3.1\PayComplete.Persistence.genruntimeconfig.cache
