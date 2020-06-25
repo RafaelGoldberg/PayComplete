@@ -95,7 +95,6 @@ namespace PayComplete.Controllers
         }
 
 
-
         public IActionResult Edit(int id)
         {
             var employee = _employeeService.GetById(id);
@@ -130,12 +129,105 @@ namespace PayComplete.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(EmployeeEditViewModel model)
+        public async Task<IActionResult> Edit(EmployeeEditViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var employee = EmployeeService.GetB
+                var employee = _employeeService.GetById(model.Id);
+                if (employee == null)
+                {
+                    return NotFound();
+                }
+                employee.EmployeeNo = model.EmployeeNo;
+                employee.FirstName = model.FirstName;
+                employee.LastName = model.LastName;
+                employee.MiddleName = model.MiddleName;
+                employee.SocialSecurityNumber = model.SocialSecurityNumber;
+                employee.Gender = model.Gender;
+                employee.Email = model.Email;
+                employee.DOB = model.DOB;
+                employee.PhoneNumber = model.PhoneNumber;
+                employee.PaymentMethod = model.PaymentMethod;
+                employee.StudentLoan = model.StudentLoan;
+                employee.UnionMember = model.UnionMember;
+                employee.Address = model.Address;
+                employee.City = model.City;
+                employee.ZipCode = model.ZipCode;
+                if (model.ImageUrl != null && model.ImageUrl.Length > 0)
+                {
+                    var uplaodDir = @"images/employee";
+                    var fileName = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
+                    var extension = Path.GetExtension(model.ImageUrl.FileName);
+
+                    var webRootPath = _webHostEnvironment.WebRootPath;
+                    fileName = DateTime.UtcNow.ToString("yymmss") + fileName + extension;
+                    var path = Path.Combine(webRootPath, uplaodDir, fileName);
+                    await model.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));
+
+                    employee.ImageUrl = "/" + uplaodDir + "/" + fileName;
+
+                }
+
+                await _employeeService.UpdateAsync(employee);
+                return RedirectToAction(nameof(Index));
             }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            var employee = _employeeService.GetById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            EmployeeDetailViewModel model = new EmployeeDetailViewModel()
+            {
+                Id = employee.Id,
+                EmployeeNo = employee.EmployeeNo,
+                FullName = employee.FullName,
+                Gender = employee.Gender,
+                DOB = employee.DOB,
+                DateJoined = employee.DateJoined,
+                Designation = employee.Designation,
+                SocialSecurityNumber = employee.SocialSecurityNumber,
+                PhoneNumber = employee.PhoneNumber,
+                Email = employee.Email,
+                PaymentMethod = employee.PaymentMethod,
+                StudentLoan = employee.StudentLoan,
+                UnionMember = employee.UnionMember,
+                Address = employee.Address,
+                City = employee.City,
+                ImageUrl = employee.ImageUrl,
+                ZipCode = employee.ZipCode
+
+            };
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var employee = _employeeService.GetById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel()
+            {
+                Id = employee.Id,
+                FullName = employee.FullName
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task< IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+            await _employeeService.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
