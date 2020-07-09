@@ -186,3 +186,4 @@ C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete\obj
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete\obj\Debug\netcoreapp3.1\PayComplete.dll
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete\obj\Debug\netcoreapp3.1\PayComplete.pdb
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete\obj\Debug\netcoreapp3.1\PayComplete.genruntimeconfig.cache
+C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
