@@ -35,6 +35,10 @@ namespace PayComplete.Entity
         public string  Address { get; set; }
         [Required, MaxLength(50)]
         public string City { get; set; }
+
+        [Required, MaxLength(30)]
+        public string State { get; set; }
+
         [Required, MaxLength(50)]
         public string ZipCode { get; set; }
         public IEnumerable<PaymentRecord> PaymentRecords { get; set; }

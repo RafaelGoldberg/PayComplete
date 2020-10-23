@@ -69,6 +69,7 @@ namespace PayComplete.Controllers
                     UnionMember = model.UnionMember,
                     Address = model.Address,
                     City = model.City,
+                    State = model.State,
                     PhoneNumber = model.PhoneNumber,
                     ZipCode =model.ZipCode,
                     Designation = model.Designation,
@@ -109,7 +110,8 @@ namespace PayComplete.Controllers
                 FirstName = employee.FirstName,
                 MiddleName = employee.MiddleName,
                 LastName = employee.LastName,
-
+               // FullName = employee.FullName,
+                DateJoined = employee.DateJoined,
                 Gender = employee.Gender,
                 Email = employee.Email,
                 DOB = employee.DOB,
@@ -120,6 +122,7 @@ namespace PayComplete.Controllers
                 UnionMember = employee.UnionMember,
                 Address = employee.Address,
                 City = employee.City,
+                State = employee.State,
                 PhoneNumber = employee.PhoneNumber,
                 ZipCode = employee.ZipCode,
                 Designation = employee.Designation,
@@ -142,16 +145,20 @@ namespace PayComplete.Controllers
                 employee.FirstName = model.FirstName;
                 employee.LastName = model.LastName;
                 employee.MiddleName = model.MiddleName;
+                employee.FullName = model.FullName;
                 employee.SocialSecurityNumber = model.SocialSecurityNumber;
                 employee.Gender = model.Gender;
+                employee.DateJoined = model.DateJoined;
                 employee.Email = model.Email;
                 employee.DOB = model.DOB;
+                employee.Designation = model.Designation;
                 employee.PhoneNumber = model.PhoneNumber;
                 employee.PaymentMethod = model.PaymentMethod;
                 employee.StudentLoan = model.StudentLoan;
                 employee.UnionMember = model.UnionMember;
                 employee.Address = model.Address;
                 employee.City = model.City;
+                employee.State = model.State;
                 employee.ZipCode = model.ZipCode;
                 if (model.ImageUrl != null && model.ImageUrl.Length > 0)
                 {
@@ -199,6 +206,7 @@ namespace PayComplete.Controllers
                 UnionMember = employee.UnionMember,
                 Address = employee.Address,
                 City = employee.City,
+                State = employee.State,
                 ImageUrl = employee.ImageUrl,
                 ZipCode = employee.ZipCode
 

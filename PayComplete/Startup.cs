@@ -36,7 +36,7 @@ namespace PayComplete
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IEmployeeService,EmployeeService>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
 
         }
 

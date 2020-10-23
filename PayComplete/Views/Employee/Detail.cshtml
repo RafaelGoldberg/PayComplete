@@ -1,0 +1,60 @@
+﻿@model EmployeeDetailViewModel
+
+
+<div class="col-md-12 grid-margin grid-margin-md-0">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-10">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"> <a asp-controller="Home" asp-action="Index">Home</a> </li>
+                            <li class="breadcrumb-item"> <a asp-action="Index">Employee List</a> </li>
+                            <li class="breadcrumb-item active" aria-current="page">Employee Details</li>
+                        </ol>
+                    </nav>
+                </div>
+
+
+            </div>
+            <br /><br />
+
+                  <div class="wrap d-flex justify-content-lg-start justify-content-sm-center flex-wrap">
+                      <img class="rounded-circle shadow-lg"  src="@Url.Content(Model.ImageUrl)" alt="Alternate Text" style="width:300px; height:350px" />
+                      <div class="wrap align-items-center ml-5">
+                          <p class="font-weight-bold text-success" style="font-size:20px">@Model.FullName</p>
+                          <p class="font-weight-normal">@Model.Designation</p>
+                          <p class="font-weight-normal">Gender: @Model.Gender</p>
+                          <p class="font-weight-normal">Date Of Birth: @Model.DOB.ToString("dd/MM/yyyy")</p>
+                          <p class="font-weight-normal">Employee Number: @Model.EmployeeNo</p>
+                          <p class="font-weight-normal">SSN: @Model.SocialSecurityNumber</p>
+                          <p class="font-weight-normal">Email: @Model.Email</p>
+                          <p class="font-weight-normal">Phone: <a href="tel:@Model.PhoneNumber">@Model.PhoneNumber</a></p>
+                          <br />   <br />
+                          <p class="font-weight-bold">Pay & Deductions</p>
+                          <hr style="background-color:crimson" />
+                          <p class="font-weight-normal">Payment Method: @Model.PaymentMethod</p>
+                          <p class="font-weight-normal">Student Loan: @Model.StudentLoan</p>
+                          <p class="font-weight-normal">Union Member: @Model.UnionMember</p>
+                          <p class="font-weight-normal"> <i class="fas fa-envelope" style="margin-right:0.6em;color:cornflowerblue"></i> <a href="mailto:@Model.Email?Subject=Payslip&body=Attached within is your payslip">Send Payship</a></p>
+                          <br /><br />
+                          <hr style="background-color:crimson" />
+                          <p class="font-weight-normal"> @Model.Address</p>
+                          <p class="font-weight-normal"> @Model.City</p>
+                          <p class="font-weight-normal"> @Model.State</p>
+                          <p class="font-weight-normal"> @Model.ZipCode</p>
+                          <br /><br />
+
+                      </div>
+
+
+                  </div>
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

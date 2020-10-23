@@ -286,6 +286,11 @@ namespace PayComplete.Persistence.Migrations
                         .HasColumnType("nvarchar(25)")
                         .HasMaxLength(25);
 
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
+
                     b.Property<int>("StudentLoan")
                         .HasColumnType("int");
 
