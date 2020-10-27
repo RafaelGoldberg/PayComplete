@@ -16,3 +16,12 @@ C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Ent
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.csproj.CoreCompileInputs.cache
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.dll
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.deps.json
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.csprojAssemblyReference.cache
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.AssemblyInfoInputs.cache
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.AssemblyInfo.cs
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Entity\obj\Debug\netcoreapp3.1\PayComplete.Entity.pdb

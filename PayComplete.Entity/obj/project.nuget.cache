@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X+889RHTK2JDJXLNr7xe+RgiJ/hIOIXU9qKCIF9NoxxZAnjWC4OiNufDsYC0iF/9LIcqR0Sahs9urms6cRTuvQ==",
+  "dgSpecHash": "tTM1UfPb115CztPrda5c1tJPAsnbXXOJ62EvbNxTMft3edRM3A8H4jG5QsPvmkASqlpPDN+UYf1sGZ1oh6j5Jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Rafi Goldberg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

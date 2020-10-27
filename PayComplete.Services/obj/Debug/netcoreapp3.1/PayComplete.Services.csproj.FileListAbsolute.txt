@@ -26,3 +26,16 @@ C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Ser
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
 C:\Users\Rafi Goldberg\Desktop\Asp.Net Core Projects\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.deps.json
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Entity.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\bin\Debug\netcoreapp3.1\PayComplete.Persistence.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csprojAssemblyReference.cache
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfoInputs.cache
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.AssemblyInfo.cs
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {}
+    "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {
+    "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
         "projectName": "PayComplete.Entity",
-        "projectPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
-        "packagesPath": "C:\\Users\\Rafi Goldberg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafi Goldberg\\Desktop\\Asp.Net Core Projects\\PayComplete\\PayComplete.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\PayComplete.Entity.csproj",
+        "packagesPath": "C:\\Users\\Rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafae\\Desktop\\ASP.NET Core\\PayComplete\\PayComplete.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rafi Goldberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -51,18 +51,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
