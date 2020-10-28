@@ -12,6 +12,7 @@ namespace PayComplete.Services
     {
         Task CreateAsync(PaymentRecord paymentRecord);
         PaymentRecord GetById(int id);
+        TaxYear GetTaxYearById(int id);
         IEnumerable<PaymentRecord> GetAll();
         IEnumerable<SelectListItem> GetAllTaxYear();
         decimal OverTimeHours(decimal hoursWorked, decimal contactualHours);
@@ -21,6 +22,8 @@ namespace PayComplete.Services
         decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings);
         decimal TotalDeduction(decimal tax, decimal ssc, decimal studentLoanRepayment, decimal unionFee); // ssc = Socail Security Contribution 
         decimal NetPay(decimal totalEarnings, decimal totalDeductions);
+
+
 
     }
 }

@@ -52,6 +52,9 @@ namespace PayComplete.Services.Implementation
 
         public PaymentRecord GetById(int id) => _dbContext.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
 
+        public TaxYear GetTaxYearById(int id) => _dbContext.TaxYears.Where(year => year.Id == id).FirstOrDefault();
+
+
         public decimal NetPay(decimal totalEarnings, decimal totalDeductions) => totalEarnings - totalDeductions;
 
         public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours) => overtimeHours * overtimeRate;
