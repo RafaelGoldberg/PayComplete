@@ -39,3 +39,4 @@ C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\n
 C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CopyComplete
 C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.dll
 C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.pdb
+C:\Users\Rafae\Desktop\ASP.NET Core\PayComplete\PayComplete.Services\obj\Debug\netcoreapp3.1\PayComplete.Services.csproj.CoreCompileInputs.cache

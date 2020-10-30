@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayComplete", "PayComplete\PayComplete.csproj", "{4CCCC4F2-0D11-4C6F-9355-F2043932F657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayComplete.Services", "PayComplete.Services\PayComplete.Services.csproj", "{5F92B8C9-BCB3-412C-AC07-98C55D08B13D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayComplete.Services", "PayComplete.Services\PayComplete.Services.csproj", "{5F92B8C9-BCB3-412C-AC07-98C55D08B13D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayComplete.Persistence", "PayComplete.Persistence\PayComplete.Persistence.csproj", "{45BACBA5-FEAD-4A28-B578-E019FA3412E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayComplete.Persistence", "PayComplete.Persistence\PayComplete.Persistence.csproj", "{45BACBA5-FEAD-4A28-B578-E019FA3412E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayComplete.Entity", "PayComplete.Entity\PayComplete.Entity.csproj", "{189E02F8-F2BA-495B-9F0D-F2EC4A56CB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayComplete.Entity", "PayComplete.Entity\PayComplete.Entity.csproj", "{189E02F8-F2BA-495B-9F0D-F2EC4A56CB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayComplete", "PayComplete\PayComplete.csproj", "{82F60543-5283-44B2-B315-42630C4355CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CCCC4F2-0D11-4C6F-9355-F2043932F657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CCCC4F2-0D11-4C6F-9355-F2043932F657}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CCCC4F2-0D11-4C6F-9355-F2043932F657}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CCCC4F2-0D11-4C6F-9355-F2043932F657}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F92B8C9-BCB3-412C-AC07-98C55D08B13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F92B8C9-BCB3-412C-AC07-98C55D08B13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F92B8C9-BCB3-412C-AC07-98C55D08B13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{189E02F8-F2BA-495B-9F0D-F2EC4A56CB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{189E02F8-F2BA-495B-9F0D-F2EC4A56CB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{189E02F8-F2BA-495B-9F0D-F2EC4A56CB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F60543-5283-44B2-B315-42630C4355CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F60543-5283-44B2-B315-42630C4355CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F60543-5283-44B2-B315-42630C4355CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F60543-5283-44B2-B315-42630C4355CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PayComplete.Services.Implementation
 {
-    class SocailSecurityContributionService : ISocialSecurityContributionService
+    public class SocailSecurityContributionService : ISocialSecurityContributionService
     {
         private decimal SSRate;
         private decimal SSC;

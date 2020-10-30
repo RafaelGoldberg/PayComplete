@@ -3,6 +3,7 @@ using PayComplete.Entity;
 using PayComplete.Models;
 using PayComplete.Models.Payments;
 using PayComplete.Services;
+using RotativaCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -175,6 +176,47 @@ namespace PayComplete.Controllers
                 NetPayment = paymentRecord.NetPayment
             };
             return View(model);
+            //return new ViewAsPdf("Payslip",model);
+        }
+
+
+        public IActionResult GeneratePayslipPdf(int id)
+        {
+            var paymentRecord = _payComputationService.GetById(id);
+            if (paymentRecord == null)
+            {
+                return NotFound();
+            }
+            var model = new PaymentRecordDetailViewModel()
+            {
+                Id = paymentRecord.Id,
+                EmployeeId = paymentRecord.EmployeeId,
+                FullName = paymentRecord.FullName,
+                SSC = paymentRecord.SSC,
+                PayDate = paymentRecord.PayDate,
+                PayMonth = paymentRecord.PayMonth,
+                TaxYearId = paymentRecord.TaxYearId,
+                Year = _payComputationService.GetTaxYearById(paymentRecord.TaxYearId).YearOfTax,
+                TaxCode = paymentRecord.TaxCode,
+                HourlyRate = paymentRecord.HourlyRate,
+                HoursWorked = paymentRecord.HoursWorked,
+                ContractualHours = paymentRecord.ContractualHours,
+                OvertimeHours = paymentRecord.OvertimeHours,
+                OvertimeRate = _payComputationService.OvertimeRate(paymentRecord.HourlyRate),
+                ContractualEarnings = paymentRecord.ContractualEarnings,
+                OvertimeEarnings = paymentRecord.OvertimeEarnings,
+                Tax = paymentRecord.Tax,
+                SSN = paymentRecord.SSN,
+                UnionFee = paymentRecord.UnionFee,
+                SLC = paymentRecord.SLC,
+                TotalEarnings = paymentRecord.TotalEarnings,
+                TotalDeduction = paymentRecord.TotalDeduction,
+                Employee = paymentRecord.Employee,
+                TaxYear = paymentRecord.TaxYear,
+                NetPayment = paymentRecord.NetPayment
+            };
+            //return View(model);
+            return new ViewAsPdf("Payslip",model);
         }
     }
 }
