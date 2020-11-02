@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PayComplete.Entity;
 using PayComplete.Models;
 using PayComplete.Models.Payments;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace PayComplete.Controllers
 {
+    [Authorize(Roles = "Admin, Manager")]
     public class PayController : Controller
     {
         private readonly IPayComputationService _payComputationService;
@@ -53,6 +55,7 @@ namespace PayComplete.Controllers
             return View(payRecords);
         }
 
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             ViewBag.taxYears = _payComputationService.GetAllTaxYear();
@@ -63,6 +66,7 @@ namespace PayComplete.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult>  Create(PaymentRecordCreateVeiwModel  model)
         {
             if (ModelState.IsValid)
@@ -216,7 +220,7 @@ namespace PayComplete.Controllers
                 NetPayment = paymentRecord.NetPayment
             };
             //return View(model);
-            return new ViewAsPdf("Payslip",model);
+            return new ViewAsPdf("Payslip" , model);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Storage;
 using PayComplete.Entity;
@@ -13,6 +14,8 @@ using System.Threading.Tasks;
 
 namespace PayComplete.Controllers
 {
+
+    [Authorize(Roles ="Admin, Manager, Staff")]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
@@ -41,6 +44,7 @@ namespace PayComplete.Controllers
             return View(EmployeeListPagination<EmplyeeIndexViewModel>.Create(employees, pageNumber ?? 1, pageSize));
         }
 
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Create()
         {
             var model = new EmployeeCreateViewModel();
@@ -49,6 +53,7 @@ namespace PayComplete.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task< IActionResult> Create(EmployeeCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -97,7 +102,7 @@ namespace PayComplete.Controllers
             return View();
         }
 
-
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Edit(int id)
         {
             var employee = _employeeService.GetById(id);
@@ -134,6 +139,7 @@ namespace PayComplete.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Edit(EmployeeEditViewModel model)
         {
             if (ModelState.IsValid)
@@ -217,6 +223,7 @@ namespace PayComplete.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Delete(int id)
         {
             var employee = _employeeService.GetById(id);
@@ -234,6 +241,7 @@ namespace PayComplete.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task< IActionResult> Delete(EmployeeDeleteViewModel model)
         {
             await _employeeService.Delete(model.Id);
