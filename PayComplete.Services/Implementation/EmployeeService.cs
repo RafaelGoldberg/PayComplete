@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using PayComplete.Entity;
 using PayComplete.Persistence;
 using System;
@@ -33,7 +34,7 @@ namespace PayComplete.Services.Implementation
             await _db.SaveChangesAsync();
         }
 
-        public IEnumerable<Employee> GetAll() => _db.Employees;
+        public IEnumerable<Employee> GetAll() => _db.Employees.AsNoTracking().OrderBy(emp => emp.FullName);
 
 
         public async Task UpdateAsync(Employee employee)

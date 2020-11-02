@@ -1,4 +1,4 @@
-﻿@model  IEnumerable<EmplyeeIndexViewModel>
+﻿@model  EmployeeListPagination<EmplyeeIndexViewModel>
 @{ ViewBag.Title = "Employee";}
 
     <div class="row">
@@ -40,28 +40,43 @@
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
-                                    <tr>
-                                        <td>
-                                            <a asp-action="Detail" asp-route-id="@item.Id"> @item.EmployeeNo</a>
-                                       
-                                        </td>
-                                        <td>
-                                            <img src="@Url.Content(item.ImageUrl)"  />
-                                        </td>
-                                        <td>@item.FullName</td>
-                                        <td>@item.Gender</td>
-                                        <td>@item.Designation</td>
-                                        <td>@item.City</td>
-                                        <td>@item.DateJoined.ToString("MM/dd/yyyy")</td>
-                                        <td>
-                                            <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                                            <a class="text-success" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
-                                            <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <a asp-action="Detail" asp-route-id="@item.Id"> @item.EmployeeNo</a>
+
+                                            </td>
+                                            <td>
+                                                <img src="@Url.Content(item.ImageUrl)" />
+                                            </td>
+                                            <td>@item.FullName</td>
+                                            <td>@item.Gender</td>
+                                            <td>@item.Designation</td>
+                                            <td>@item.City</td>
+                                            <td>@item.DateJoined.ToString("MM/dd/yyyy")</td>
+                                            <td>
+                                                <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                                                <a class="text-success" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                                                <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                            </td>
+                                        </tr>
                                     }
                                 </tbody>
                             </table>
+                            @{
+                                var disablePrevious = !Model.IsPreviousPageAvailable ? "disabled" : "";
+                                var disableNext = !Model.IsNextPageAvailable ? "disabled" : "";
+                            }
+
+                            <a asp-action="Index"
+                               asp-route-pageNumber="@(Model.PageIndex - 1)"
+                               class="btn btn-primary @disablePrevious">
+                                Previous
+                            </a>
+                            <a asp-action="Index"
+                               asp-route-pageNumber="@(Model.PageIndex + 1)"
+                               class="btn btn-primary @disableNext">
+                                Next
+                            </a>
                         </div>
                     </div>
                 </div>

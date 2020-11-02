@@ -29,7 +29,7 @@ namespace PayComplete.Services.Implementation
             {
                 contractualEarnings = contractualHours * hourlyRate;
             }
-            return contractualHours;
+            return contractualEarnings;
         }
 
         public async Task CreateAsync(PaymentRecord paymentRecord)

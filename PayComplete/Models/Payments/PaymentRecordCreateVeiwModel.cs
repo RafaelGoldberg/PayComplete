@@ -32,7 +32,7 @@ namespace PayComplete.Models.Payments
         [Display(Name = "Hours Worked")]
         public decimal HoursWorked { get; set; }
         [Display(Name = "Contractual Hours")]
-        public decimal ContractualHours { get; set; } = 144m;
+        public decimal ContractualHours { get; set; } = 40m;
 
         public decimal OvertimeHours { get; set; }
 
